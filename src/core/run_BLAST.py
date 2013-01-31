@@ -55,6 +55,7 @@ RE_GI_ID_FROM_SEQIDS = re.compile("gi\|(\d+)")
 # ['emb|HE605217.1|', 'gi|380350107']
 # ['emb|HE605215.1|', 'gi|380350105']
 def get_gi_id_from_other_seqids(id_list):
+
     if len(id_list) == 2:
         match = re.search(RE_GI_ID_FROM_SEQIDS, id_list[1])
         gi_id = match.group(1)
@@ -63,7 +64,10 @@ def get_gi_id_from_other_seqids(id_list):
             match = re.search(RE_GI_PATTERN, id)
             if match is not None:
                 gi_id = match.group(1)
-    return gi_id
+    try:
+        return gi_id
+    except:
+        print id_list
 
 
 def _append_to_dict_list(dicts, key, value):
@@ -217,7 +221,7 @@ class runBLAST(object):
             if count > 1:
 
 # # FIXME: something wrong with data["count"], count == 46 but 47 seqs
-                print count, taxa, len(data["IdList"]), data["IdList"]
+                print count, taxa  # , len(data["IdList"])  , data["IdList"]
                 outfile.write("Count: %d\tTaxa: %s\n" % (count, taxa))
                 handle = Entrez.efetch(db="nucleotide", id=data["IdList"], rettype="gb", retmode="xml")
                 seqs = Entrez.parse(handle)
@@ -226,8 +230,7 @@ class runBLAST(object):
                     seq_def = seq["GBSeq_definition"]
 
                     is_print = True
-                    if count == 46:
-                        print seq_def
+
                     keep = dict()
                     for key, terms in keep_keys.iteritems():
 
