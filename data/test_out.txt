@@ -1,0 +1,20 @@
+Count: 46	Taxa: Exophiala castellanii
+Hit:UNVERIFIED: Exophiala castellanii strain CBS 109915 genomic sequence
+['gi|434860974|gb|KC254027.1|', 'gi|380350107|emb|HE605217.1|']
+RPB1:1
+Remove:21
+18S_mt:1
+18S:8
+28S:1
+ITS:14
+
+==============================
+
+Count: 47	Taxa: Exophiala mesophila
+['gi|434860974|gb|KC254027.1|', 'gi|380350107|emb|HE605217.1|']
+18S:1
+ITS:24
+Remove:22
+
+==============================
+
