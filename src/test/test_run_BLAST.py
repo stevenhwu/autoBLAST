@@ -5,15 +5,20 @@ Created on Jan 30, 2013
 """
 import unittest
 from core.run_BLAST import runBLAST
+from unittest.suite import TestSuite
+from core.utils.path_utils import get_data_dir
+import math
 
 class TestRunBLAST(unittest.TestCase):
 
     def setUp(self):
-        infile = "/home/sw167/Postdoc/Project_Fungi/data/test.fasta"
-        outfile = "/home/sw167/Postdoc/Project_Fungi/data/test_temp.txt"
+        datadir = get_data_dir()
+
+        self.infile = datadir + "test.fasta"
+        self.outfile = datadir + "test_temp.txt"
     #    args = parser.parse_args(["-h"])
 
-        self.BLAST = runBLAST(infile, outfile)
+        self.BLAST = runBLAST(self.infile, self.outfile)
 
 
     def tearDown(self):
@@ -98,29 +103,50 @@ class TestRunBLAST(unittest.TestCase):
             self.assertEqual(expected[key], set(value))
 
 
+    def test_get_seq_from_name(self):
+        taxa = ["fungal endophyte"]
+        self.BLAST.get_seqs_from_names(taxa, None)
+
 if __name__ == "__main__":
     print "main"
 
-
-
-    data = xrange(100)
-    data2 = range(100)
-    data3 = set(range(100))
-    stmt = """
-        for i in data:
-            i in data
-       """
-
-
-    import timeit
-#    a = timeit.Timer(stmt, setup="data = xrange(100)")
-# #    print a.timeit()
-#    print a.repeat()
-#    print timeit.repeat(stmt, setup="data = range(100)")
-#    print timeit.repeat(stmt, setup="data  = set(range(100)) ")
-
-
-    print timeit.timeit('char in text', setup='text = "sample string"; char = "g"')
-    print timeit.timeit("char in text", setup="text = 'sample string'; char = 'g'")
-
-# if __name__ == '__main__':
+    suite = TestSuite()
+    suite.addTest(TestRunBLAST("test_get_seq_from_name"))
+#    suite.addTest(TestGoConnector("test_GoConnector_long"))
+    unittest.TextTestRunner().run(suite)
+#
+#    all = range(31)
+#    new_list = []
+#    max = math.ceil(len(all) / 10.0)
+#    print all, max
+#    count = 0
+#    while count < max:
+#        t = all[(count * 10):((count + 1) * 10) ]
+#        print t
+#        new_list.append(t)
+#        count += 1
+#    print "=="
+#    print new_list
+#
+#
+#    data = xrange(100)
+#    data2 = range(100)
+#    data3 = set(range(100))
+#    stmt = """
+#        for i in data:
+#            i in data
+#       """
+#
+#
+#    import timeit
+# #    a = timeit.Timer(stmt, setup="data = xrange(100)")
+# # #    print a.timeit()
+# #    print a.repeat()
+# #    print timeit.repeat(stmt, setup="data = range(100)")
+# #    print timeit.repeat(stmt, setup="data  = set(range(100)) ")
+#
+#
+#    print timeit.timeit('char in text', setup='text = "sample string"; char = "g"')
+#    print timeit.timeit("char in text", setup="text = 'sample string'; char = 'g'")
+#
+# # if __name__ == '__main__':

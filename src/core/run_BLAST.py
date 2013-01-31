@@ -7,23 +7,27 @@ import re
 from Bio import Entrez, SeqIO
 from Bio.Blast import NCBIWWW, NCBIXML
 import urllib
+import math
+import pickle
 
+MAX_BLAST = 500
 RE_GI_PATTERN = re.compile("gi\|(\d+)\|\w+\|.*\|")
 E_VALUE_THRESH = 1e-5
 Entrez.email = "Ather@hotmail.com"
+
 keep_keys = {
 #    "5.8S":[["5.8S"]],
-    "18S":[["18S"], ["small subunit ribosomal"], ["small subunit rRNA"]],
-    "28S":[["28S"], ["large subunit ribosomal"], ["large subunit rRNA"]],
-    "RPB1":[["RPB1"]],
-    "RPB2":[["RPB2"], ["RPBII"]],
-    "MCM7":[["MCM7"]],
-    "18S_mt":[["18S", "mitochondrial"],
+    "18S":[["18s"], ["small subunit ribosomal"], ["small subunit rrna"]],
+    "28S":[["28s"], ["large subunit ribosomal"], ["large subunit rrna"]],
+    "RPB1":[["rpb1"]],
+    "RPB2":[["rpb2"], ["rpbii"]],
+    "MCM7":[["mcm7"]],
+    "18S_mt":[["18s", "mitochondrial"],
               ["small subunit ribosomal", "mitochondrial"],
-              ["small subunit rRNA", "mitochondrial"] ],
+              ["small subunit rrna", "mitochondrial"] ],
 #    "ITS":[["internal transcribed spacer", "5.8S"],
 #           ["internal transcribed spacer", "28S"]],
-    "ITS":[["internal transcribed spacer"], ["ITS"]]
+    "ITS":[["internal transcribed spacer"], ["its"]]
          }
 
 remove_keys = [
@@ -46,6 +50,7 @@ def get_gi_id(string):
 
 
 def _increment_count(keyword_count, key):
+
     try:
         keyword_count[key] += 1
     except KeyError:
@@ -54,16 +59,18 @@ def _increment_count(keyword_count, key):
 RE_GI_ID_FROM_SEQIDS = re.compile("gi\|(\d+)")
 # ['emb|HE605217.1|', 'gi|380350107']
 # ['emb|HE605215.1|', 'gi|380350105']
+# ['lcl|comp9774-28S', 'gb|AF050275.1|AF050275', 'gi|4206351']
+
 def get_gi_id_from_other_seqids(id_list):
 
-    if len(id_list) == 2:
-        match = re.search(RE_GI_ID_FROM_SEQIDS, id_list[1])
-        gi_id = match.group(1)
-    else:
-        for id in id_list:
-            match = re.search(RE_GI_PATTERN, id)
-            if match is not None:
-                gi_id = match.group(1)
+#    if len(id_list) == 2:
+#        match = re.search(RE_GI_ID_FROM_SEQIDS, id_list[1])
+#        gi_id = match.group(1)
+#    else:
+    for id in id_list:
+        match = re.search(RE_GI_ID_FROM_SEQIDS, id)
+        if match is not None:
+            gi_id = match.group(1)
     try:
         return gi_id
     except:
@@ -81,21 +88,31 @@ def _append_to_dict_list(dicts, key, value):
 class runBLAST(object):
 
     def __init__(self, infile, outfile):
-        self.infile = infile
+        self.outfile_name_prefix = outfile
+
         self.record_index = SeqIO.index(infile, "fasta")
         self.outfile = open(outfile, "w")
 
     def run(self):
 
         self.data_to_gid = self.blast_seqs();
+        tempfile = open(self.outfile_name_prefix + "_data_to_gid", "w")
+        pickle.dump(self.data_to_gid, tempfile)
+#        aa = pickle.load(tempfile)
+
         self.gid_to_organism = self.get_organism(self.data_to_gid)
+
+        tempfile = open(self.outfile_name_prefix + "_gid_to_organism", "w")
+        pickle.dump(self.gid_to_organism, tempfile)
+        tempfile.close()
         self.all_organisms = self.merge_to_unique_organism(self.gid_to_organism)
         self.taxa_to_data = self.map_organism_to_data(self.all_organisms,
                                                        self.gid_to_organism, self.data_to_gid)
 
+        self.get_seqs_from_names(self.all_organisms, self.taxa_to_data)
+        self.outfile.write("\n==end==\n")
+        self.outfile.close()
 
-        self.get_seqs_from_names(self.outfile, self.all_organisms, self.taxa_to_data)
-        print "==end==\n\n"
 
     def blast2(self):
 
@@ -207,9 +224,10 @@ class runBLAST(object):
 
         return all_organisms
 
-    def get_seqs_from_names(self, outfile, list_of_organisms, taxa_to_raw_data):
+    def get_seqs_from_names(self, list_of_organisms, taxa_to_raw_data):
         print "Get seq def..."
         result = dict()
+#        output = ""
 #        print "List_of_organisms:\t", list_of_organisms
         for taxa in list_of_organisms:
             qterm = "%s[Organism]" % taxa
@@ -220,56 +238,80 @@ class runBLAST(object):
 #            print (data["Count"], type(data["Count"]), str(data["Count"]), int(data["Count"]))
             if count > 1:
 
-# # FIXME: something wrong with data["count"], count == 46 but 47 seqs
-                print count, taxa  # , len(data["IdList"])  , data["IdList"]
-                outfile.write("Count: %d\tTaxa: %s\n" % (count, taxa))
-                handle = Entrez.efetch(db="nucleotide", id=data["IdList"], rettype="gb", retmode="xml")
-                seqs = Entrez.parse(handle)
+                all_id = data["IdList"]
+                print count, taxa  # , len(all_id)  # ,all_id_list
+                try:
+                    self.outfile.write("Count: %d\tTaxa: %s\n" % (count, taxa))
+                    self.outfile.write("%s\n" % str(taxa_to_raw_data[taxa]))
+                except:
+                    print "Error: check\t", taxa
+
+
                 keyword_count = dict()
-                for j, seq in enumerate(seqs):
-                    seq_def = seq["GBSeq_definition"]
 
-                    is_print = True
+                list_all_id = []
+                max_count = math.ceil(len(all_id) / float(MAX_BLAST))
+#                print len(all_id), max
+                count = 0
+                while count < max_count:
+                    temp = all_id[(count * MAX_BLAST):((count + 1) * MAX_BLAST)]
 
-                    keep = dict()
-                    for key, terms in keep_keys.iteritems():
+                    list_all_id.append(temp)
+                    count += 1
 
-                        match = [[seq_def.find(x) > -1 for x in term ] for term in terms]
-                        keep[key] = any([ all(x) for x in match])
-
-                    if keep["ITS"]:
-                        is_print = False
-                        _increment_count(keyword_count, "ITS")
-
-                    elif keep["18S_mt"]:
-                        is_print = False
-                        _increment_count(keyword_count, "18S_mt")
-                    else:
-                        for key in keep:
-                            if keep[key]:
-                                is_print = False
-                                _increment_count(keyword_count, key)
-
-                    if is_print:
-                        for word in remove_keys:
-                            index = seq_def.find(word)
-                            if index is not -1:
-                                is_print = False
-                                _increment_count(keyword_count, "Remove")
-
-                    if is_print:
-                        result = "Hit:%s\n" % (seq_def)
-                        outfile.write(result)
-
-
-                outfile.write(str(taxa_to_raw_data[taxa]))
-                outfile.write("\n")
-
+                for ids in list_all_id:
+                    self._get_id_to_name_parser(keyword_count, ids)
 
                 for key, value in keyword_count.iteritems():
-                    outfile.write("%s:%s\n" % (key, value))
-                outfile.write("\n==============================\n\n")
+                    self.outfile.write("%s:%s\n" % (key, value))
+                self.outfile.write("\n==============================\n")
 
+
+    def _get_id_to_name_parser(self, keyword_count, id_list):
+# # FIXME: something wrong with data["count"], count == 46 but 47 seqs
+
+
+        handle = Entrez.efetch(db="nucleotide", id=id_list, rettype="gb", retmode="xml")
+        seqs = Entrez.parse(handle)
+        output = ""
+        for j, seq in enumerate(seqs):
+            seq_def = seq["GBSeq_definition"].lower()
+
+
+            is_print = True
+
+            keep = dict()
+            for key, terms in keep_keys.iteritems():
+
+                match = [[seq_def.find(x) > -1 for x in term ] for term in terms]
+                keep[key] = any([ all(x) for x in match])
+
+            if keep["ITS"]:
+                is_print = False
+                _increment_count(keyword_count, "ITS")
+
+            elif keep["18S_mt"]:
+                is_print = False
+                _increment_count(keyword_count, "18S_mt")
+            else:
+                for key in keep:
+                    if keep[key]:
+                        is_print = False
+                        _increment_count(keyword_count, key)
+
+            if is_print:
+                for word in remove_keys:
+                    index = seq_def.find(word)
+                    if index is not -1:
+                        is_print = False
+                        _increment_count(keyword_count, "Remove")
+
+            if is_print:
+                result = "Hit:%s\n" % (seq_def)
+                output += result
+
+        self.outfile.write(output)
+        return keyword_count
 
     def map_organism_to_data(self, all_organisms, gid_to_organism, data_to_gid):
 
