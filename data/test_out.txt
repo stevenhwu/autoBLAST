@@ -1,0 +1,1036 @@
+Count: 3	Taxa: Chaetothyriales sp. A95
+['gi|157277471|gb|EU041876.1|']
+18S:1
+28S:1
+RPB1:1
+
+==============================
+Count: 2	Taxa: Phialophora livistonae
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:1
+
+==============================
+Count: 38	Taxa: Veronaea botryosa
+['gi|157277471|gb|EU041876.1|']
+18S:1
+28S:19
+ITS:10
+Remove:8
+
+==============================
+Count: 2	Taxa: Dactylospora lobariella
+['gi|157277471|gb|EU041876.1|']
+18S:1
+28S:1
+
+==============================
+Count: 25	Taxa: Cyphellophora laciniata
+['gi|157277471|gb|EU041876.1|']
+RPB1:4
+Remove:3
+18S_mt:1
+18S:3
+28S:5
+ITS:9
+
+==============================
+Count: 17	Taxa: Knufia chersonesos
+['gi|157277471|gb|EU041876.1|']
+RPB1:1
+RPB2:1
+18S_mt:1
+18S:2
+28S:2
+ITS:10
+
+==============================
+Count: 4	Taxa: Rhinocladiella anceps
+['gi|157277471|gb|EU041876.1|']
+28S:2
+ITS:2
+
+==============================
+Count: 2	Taxa: Chaetothyriales sp. CR08/2-2
+['gi|157277471|gb|EU041876.1|']
+18S:1
+ITS:1
+
+==============================
+Count: 2	Taxa: Dactylospora imperfecta
+['gi|157277471|gb|EU041876.1|']
+18S:1
+28S:1
+
+==============================
+Count: 2	Taxa: Ceramothyrium thailandicum
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:1
+
+==============================
+Count: 6	Taxa: Berlesiella nigerrima
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:3
+ITS:1
+
+==============================
+Count: 13	Taxa: Rhinocladiella mackenziei
+['gi|157277471|gb|EU041876.1|']
+28S:5
+ITS:8
+
+==============================
+Count: 2	Taxa: Cladophialophora australiensis
+['gi|157277471|gb|EU041876.1|']
+ITS:2
+
+==============================
+Count: 4	Taxa: Capronia sp. WUC 236
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:1
+RPB1:1
+
+==============================
+Count: 8	Taxa: Verrucaria sp. AO-2009b
+['gi|157277471|gb|EU041876.1|']
+ITS:8
+
+==============================
+Count: 3	Taxa: Exophiala capensis
+['gi|157277471|gb|EU041876.1|']
+28S:2
+ITS:1
+
+==============================
+Count: 2	Taxa: Chaetothyriales sp. CR08/2-1
+['gi|157277471|gb|EU041876.1|']
+18S:1
+ITS:1
+
+==============================
+Count: 3	Taxa: Capronia pulcherrima
+['gi|157277471|gb|EU041876.1|']
+18S:2
+ITS:1
+
+==============================
+Count: 2	Taxa: Veronaea japonica
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:1
+
+==============================
+Count: 29	Taxa: Exophiala salmonis
+['gi|157277471|gb|EU041876.1|']
+RPB1:1
+RPB2:1
+Remove:11
+18S_mt:1
+18S:3
+28S:3
+ITS:9
+
+==============================
+Count: 16	Taxa: Exophiala bergeri
+['gi|157277471|gb|EU041876.1|']
+RPB1:2
+Remove:4
+18S_mt:1
+18S:1
+28S:1
+ITS:7
+
+==============================
+Count: 4	Taxa: Chaetothyriales sp. TRN493
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:1
+RPB1:1
+
+==============================
+Count: 4	Taxa: Capronia sp. WUC 102
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:1
+RPB1:1
+
+==============================
+Count: 9	Taxa: Capronia mansonii
+['gi|157277471|gb|EU041876.1|']
+RPB1:2
+RPB2:1
+Remove:1
+18S_mt:1
+18S:2
+28S:2
+ITS:1
+
+==============================
+Count: 5	Taxa: Epibryon sp. E TL-2012
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:1
+ITS:1
+RPB2:1
+
+==============================
+Count: 2	Taxa: Exophiala sp. B403
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:1
+
+==============================
+Count: 3	Taxa: Capronia acutiseta
+['gi|157277471|gb|EU041876.1|']
+18S:2
+ITS:1
+
+==============================
+Count: 46	Taxa: Exophiala castellanii
+['gi|157277471|gb|EU041876.1|', 'gi|343806849|gb|JN112451.1|', 'gi|380350107|emb|HE605217.1|']
+Hit:unverified: exophiala castellanii strain cbs 109915 genomic sequence
+RPB1:1
+Remove:21
+18S_mt:1
+18S:8
+28S:1
+ITS:14
+
+==============================
+Count: 2	Taxa: Cyphellophora eugeniae
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:1
+
+==============================
+Count: 13	Taxa: Capronia sp. A WUC-2011
+['gi|157277471|gb|EU041876.1|']
+RPB1:2
+RPB2:2
+MCM7:2
+18S:2
+28S:2
+ITS:3
+
+==============================
+Count: 17	Taxa: Rhinocladiella atrovirens
+['gi|157277471|gb|EU041876.1|']
+Hit:rhinocladiella atrovirens chitin synthase (rachs1) gene, partial cds
+Hit:rhinocladiella atrovirens chitin synthase (rachs2) gene, partial cds
+Hit:rhinocladiella atrovirens gene for 26s rrna, partial sequence, strain: ifm 4931
+Hit:aminopolyolamine oxidase polynucleotides and polypeptides relating thereto and method of using the same
+Hit:aminopolyolamine oxidase polynucleotides and polypeptides relating thereto and method of using the same
+Hit:aminopolyolamine oxidase polynucleotides and polypeptides relating thereto and method of using the same
+18S:1
+28S:1
+ITS:7
+Remove:2
+
+==============================
+Count: 28	Taxa: Exophiala lecanii-corni
+['gi|157277471|gb|EU041876.1|']
+Hit:exophiala lecanii-corni homogentisate dioxygenase gene, complete cds
+Hit:exophiala lecanii-corni polyketide synthase (pks2) gene, complete cds
+Hit:exophiala lecanii-corni polyketide synthase (pks1) gene, complete cds
+RPB1:3
+Remove:1
+18S_mt:1
+18S:1
+28S:1
+ITS:18
+
+==============================
+Count: 7	Taxa: Rhinocladiella basitona
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:3
+Remove:3
+
+==============================
+Count: 14	Taxa: Phialophora sessilis
+['gi|157277471|gb|EU041876.1|']
+Hit:phialophora sessilis gene for 26s rrna, partial sequence, strain: ifm 51304
+28S:2
+ITS:11
+
+==============================
+Count: 2	Taxa: Chaetothyriales sp. TRN436
+['gi|157277471|gb|EU041876.1|']
+18S:1
+28S:1
+
+==============================
+Count: 19	Taxa: Phialophora reptans
+['gi|157277471|gb|EU041876.1|']
+Hit:phialophora reptans gene for 26s rrna, partial sequence, strain: ifm 51327
+28S:4
+ITS:6
+Remove:4
+RPB1:4
+
+==============================
+Count: 4	Taxa: Chaetothyriales sp. TRN531
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:1
+RPB1:1
+
+==============================
+Count: 5	Taxa: Strelitziana africana
+['gi|157277471|gb|EU041876.1|']
+ITS:5
+
+==============================
+Count: 2	Taxa: Rhinocladiella fasciculata
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:1
+
+==============================
+Count: 3	Taxa: Exophiala sp. TU181006
+['gi|157277471|gb|EU041876.1|']
+18S:1
+ITS:1
+Remove:1
+
+==============================
+Count: 220	Taxa: Cladophialophora carrionii
+['gi|157277471|gb|EU041876.1|']
+Hit:cladophialophora carrionii gene for 26s rrna, partial sequence, strain: ifm 41446
+Hit:cladophialophora carrionii gene for 26s rrna, partial sequence, strain: ifm 4808
+Hit:cladophialophora carrionii gene for 26s rrna, partial sequence, strain: ifm 4805
+Hit:cladophialophora carrionii gene for 26s rrna, partial sequence, strain: ifm 41641
+Hit:cladophialophora carrionii gene for 26s rrna, partial sequence, strain: ifm 4810
+Hit:cladophialophora carrionii gene for 26s rrna, partial sequence, strain: ifm 4812
+Hit:sequence 779 from patent wo0123604
+Hit:sequence 1286 from patent wo0123604
+RPB1:1
+Remove:91
+18S_mt:1
+18S:3
+28S:4
+ITS:112
+
+==============================
+Count: 11	Taxa: Ceramothyrium carniolicum
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:3
+28S:4
+RPB1:2
+RPB2:1
+
+==============================
+Count: 4	Taxa: Capronia sp. WUC 315
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:1
+RPB1:1
+
+==============================
+Count: 9	Taxa: Glyphium elatum
+['gi|157277471|gb|EU041876.1|']
+Hit:glyphium elatum partial 16s rrna gene, strain 190029-f8
+Hit:glyphium elatum partial 16s rrna gene, strain 21ho25-f5
+18S_mt:1
+18S:2
+28S:2
+RPB1:1
+Remove:1
+
+==============================
+Count: 2	Taxa: Chaetothyriales sp. CR07/3-4
+['gi|157277471|gb|EU041876.1|']
+18S:1
+ITS:1
+
+==============================
+Count: 2	Taxa: Chaetothyriales sp. CR07/3-1
+['gi|157277471|gb|EU041876.1|']
+18S:1
+ITS:1
+
+==============================
+Count: 2	Taxa: Chaetothyriales sp. CR07/3-3
+['gi|157277471|gb|EU041876.1|']
+18S:1
+ITS:1
+
+==============================
+Count: 2	Taxa: Chaetothyriales sp. CR07/3-2
+['gi|157277471|gb|EU041876.1|']
+18S:1
+ITS:1
+
+==============================
+Count: 2	Taxa: Capronia dactylotricha
+['gi|157277471|gb|EU041876.1|']
+18S:1
+ITS:1
+
+==============================
+Count: 5	Taxa: Verrucaria andesiatica
+['gi|157277471|gb|EU041876.1|']
+ITS:5
+
+==============================
+Count: 10	Taxa: Capronia munkii
+['gi|157277471|gb|EU041876.1|']
+RPB1:1
+RPB2:1
+Remove:1
+18S_mt:1
+18S:2
+28S:1
+ITS:3
+
+==============================
+Count: 2	Taxa: Dactylaria uliginicola
+['gi|157277471|gb|EU041876.1|']
+18S:1
+28S:1
+
+==============================
+Count: 2	Taxa: fungal sp. mh4293.4
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:1
+
+==============================
+Count: 4	Taxa: Chaetothyriales sp. TRN486
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:1
+RPB1:1
+
+==============================
+Count: 14	Taxa: Knufia perforans
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:6
+28S:2
+ITS:5
+
+==============================
+Count: 120	Taxa: Fonsecaea monophora
+['gi|157277471|gb|EU041876.1|']
+Hit:fonsecaea monophora strain sums0014 cdc42p mrna, complete cds
+Hit:fonsecaea monophora strain sums0014 cdc42p gene, complete cds
+Hit:fonsecaea monophora culture-collection cbs:102229 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:269.37 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:102243 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:102248 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:125189 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:121724 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:121721 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:125197 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:117236 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:102238 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:102246 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:397.48 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:125190 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:121727 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:125195 cdc42p gene, partial cds
+Hit:fonsecaea monophora culture-collection cbs:125196 cdc42p gene, partial cds
+Hit:fonsecaea monophora strain sums0254 26s ribosomal rna gene, partial sequence
+RPB1:1
+Remove:40
+18S_mt:1
+18S:3
+28S:7
+ITS:49
+
+==============================
+Count: 4	Taxa: Cladophialophora potulentorum
+['gi|157277471|gb|EU041876.1|']
+ITS:4
+
+==============================
+Count: 4	Taxa: Verrucaria denudata
+['gi|157277471|gb|EU041876.1|']
+ITS:4
+
+==============================
+Count: 6	Taxa: Anisomeridium polypori
+['gi|157277471|gb|EU041876.1|']
+RPB1:1
+RPB2:1
+Remove:1
+18S:1
+28S:1
+ITS:1
+
+==============================
+Count: 187	Taxa: Exophiala dermatitidis
+['gi|157277471|gb|EU041876.1|']
+Hit:exophiala dermatitidis nih/ut8656, whole genome shotgun sequencing project
+Hit:exophiala dermatitidis isolate pumy063 26s ribosomal rna gene, partial sequence
+Hit:exophiala dermatitidis isolate pumy064 26s ribosomal rna gene, partial sequence
+Hit:exophiala dermatitidis nih/ut8656 mitochondrion, whole genome shotgun sequence
+Hit:exophiala dermatitidis nih/ut8656 unplaced genomic scaffold supercont1.2, whole genome shotgun sequence
+Hit:exophiala dermatitidis nih/ut8656 unplaced genomic scaffold supercont1.4, whole genome shotgun sequence
+Hit:exophiala dermatitidis nih/ut8656 unplaced genomic scaffold supercont1.6, whole genome shotgun sequence
+Hit:exophiala dermatitidis nih/ut8656 unplaced genomic scaffold supercont1.8, whole genome shotgun sequence
+Hit:exophiala dermatitidis nih/ut8656 unplaced genomic scaffold supercont1.10, whole genome shotgun sequence
+Hit:exophiala dermatitidis nih/ut8656 unplaced genomic scaffold supercont1.1, whole genome shotgun sequence
+Hit:exophiala dermatitidis nih/ut8656 unplaced genomic scaffold supercont1.3, whole genome shotgun sequence
+Hit:exophiala dermatitidis nih/ut8656 unplaced genomic scaffold supercont1.5, whole genome shotgun sequence
+Hit:exophiala dermatitidis nih/ut8656 unplaced genomic scaffold supercont1.7, whole genome shotgun sequence
+Hit:exophiala dermatitidis nih/ut8656 unplaced genomic scaffold supercont1.9, whole genome shotgun sequence
+Hit:wangeilla dermatitidis chitin synthase gene, partial cds
+Hit:wangeilla dermatitidis chitin synthase gene, partial cds
+Hit:wangeilla dermatitidis chitin synthase gene, partial cds
+Hit:exophiala dermatitidis strain vtt d-1016 26s ribosomal rna gene, partial sequence
+Hit:exophiala dermatitidis glucan synthase (fks1) gene, complete cds
+Hit:exophiala dermatitidis strain dbvpg 5124 26s ribosomal rna gene, partial sequence
+Hit:exophiala dermatitidis cdc42-1p (cdc42-1) gene, complete cds
+Hit:exophiala dermatitidis orotidine monophosphate pyrophosphorylase (wdura5) gene, complete cds
+Hit:exophiala dermatitidis strain gdb 814 26s ribosomal rna gene, partial sequence
+Hit:exophiala dermatitidis rac1-like mrna, partial sequence
+Hit:exophiala dermatitidis rho1 mrna, complete cds
+Hit:exophiala dermatitidis yellowish-green 1-like protein gene, complete cds
+Hit:exophiala dermatitidis tup1p gene, complete cds
+Hit:exophiala dermatitidis cdc37 (cdc37) gene, complete cds
+Hit:exophiala dermatitidis putative transcription factor stua (stua) gene, complete cds
+Hit:exophiala dermatitidis gene for 26s rrna, partial sequence, strain: ifm 45986
+Hit:exophiala dermatitidis gene for 26s rrna, partial sequence, strain: ifm 41818
+Hit:exophiala dermatitidis gene for 26s rrna, partial sequence, strain: ifm 41828
+Hit:exophiala dermatitidis gene for 26s rrna, partial sequence, strain: ifm 41479
+Hit:exophiala dermatitidis putative transcription regulator wdmot1 (wdmot1) gene, complete cds
+Hit:exophiala dermatitidis aminotriazole resistance protein gene, complete cds
+Hit:exophiala dermatitidis strain 8656 calcineurin (cna) gene, complete cds
+Hit:exophiala dermatitidis class ii chitin synthase i gene, complete cds
+Hit:exophiala dermatitidis chitin synthase 3 (chs3) gene, complete cds
+Hit:exophiala dermatitidis chitin synthase 4 (chs4) gene, complete cds
+Hit:exophiala dermatitidis chitin synthase 2 (chs2) gene, complete cds
+Hit:exophiala dermatitidis strain wd8656 chitin synthase class vi gene, complete cds
+Hit:exophiala dermatitidis putative transcription factor pacc (pacc) gene, complete cds
+Hit:exophiala dermatitidis strain wd8656 chitin synthase class vii gene, complete cds
+Hit:exophiala dermatitidis grp1p (grp1) gene, complete cds
+Hit:exophiala dermatitidis type i polyketide synthase (pks1) gene, complete cds
+Hit:exophiala dermatitidis hsp30 (hsp30) mrna, complete cds
+Hit:exophiala dermatitidis chitin synthase v (chs5) gene, complete cds
+Hit:sequence 488 from patent wo2009027539
+Hit:exophiala dermatitidis strain wd8656 wd domain protein gene, partial cds
+Hit:exophiala dermatitidis strain wd8656 cytoplasmic asparaginyl-trna synthetase gene, partial cds
+Hit:exophiala dermatitidis strain wd8656 dbp5 helicase gene, partial cds
+Hit:exophiala dermatitidis septin (cdc11) gene, complete cds
+Hit:exophiala dermatitidis septin (cdc3) gene, complete cds
+Hit:exophiala dermatitidis septin (cdc12) gene, complete cds
+Hit:exophiala dermatitidis septin (cdc10) gene, complete cds
+Hit:exophiala dermatitidis strain mary 094 26s ribosomal rna gene, partial sequence
+Hit:sequence 9 from patent wo2004005522
+Hit:sequence 1277 from patent wo0123604
+Hit:sequence 496 from patent wo0123604
+Hit:sequence 457 from patent wo0123604
+RPB1:2
+RPB2:1
+Remove:4
+18S_mt:1
+18S:17
+28S:11
+ITS:92
+
+==============================
+Count: 12	Taxa: Epibryon hepaticola
+['gi|157277471|gb|EU041876.1|']
+18S_mt:2
+18S:2
+28S:2
+ITS:4
+RPB2:2
+
+==============================
+Count: 7	Taxa: Capronia fungicola
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:3
+28S:1
+RPB1:1
+ITS:1
+
+==============================
+Count: 2	Taxa: Rhinocladiella sp. CBS 264.49
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:1
+
+==============================
+Count: 4	Taxa: Chaetothyriales sp. TRN30
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:1
+RPB1:1
+
+==============================
+Count: 3	Taxa: Coccodinium bartschii
+['gi|157277471|gb|EU041876.1|']
+Hit:coccodinium bartschii dna-dependent rna polymerase ii second largest subunit gene, partial cds
+18S:1
+ITS:1
+
+==============================
+Count: 4	Taxa: Cyphellophora eucalypti
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:1
+Remove:2
+
+==============================
+Count: 4	Taxa: Chaetothyriales sp. TRN4
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:1
+RPB1:1
+
+==============================
+Count: 14	Taxa: Capronia parasitica
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+RPB1:2
+RPB2:2
+MCM7:2
+18S:4
+28S:1
+ITS:2
+
+==============================
+Count: 2	Taxa: Cladophialophora scillae
+['gi|157277471|gb|EU041876.1|']
+ITS:2
+
+==============================
+Count: 39	Taxa: Phialophora europaea
+['gi|157277471|gb|EU041876.1|']
+Hit:phialophora europaea gene for 26s rrna, partial sequence, strain: ifm 51318
+RPB1:6
+Remove:6
+18S_mt:1
+18S:2
+28S:7
+ITS:16
+
+==============================
+Count: 9	Taxa: Capronia coronata
+['gi|157277471|gb|EU041876.1|']
+18S:4
+ITS:2
+Remove:3
+
+==============================
+Count: 61	Taxa: Phialophora verrucosa
+['gi|157277471|gb|EU041876.1|']
+Hit:phialophora verrucosa chitin synthase isozyme gene, partial cds
+Hit:phialophora verrucosa chitin synthase isozyme gene, partial cds
+Hit:phialophora verrucosa chitin synthase isozyme gene, partial cds
+Hit:phialophora verrucosa strain sdpv 001 26s ribosomal rna gene, partial sequence
+Hit:phialophora verrucosa gene for 26s rrna, partial sequence, strain: ifm 41897
+Hit:phialophora verrucosa gene for 26s rrna, partial sequence, strain: ifm 41871
+Hit:phialophora verrucosa gene for 26s rrna, partial sequence, strain: ifm 4928
+Hit:phialophora verrucosa gene for 26s rrna, partial sequence, strain: ifm 41898
+Hit:phialophora verrucosa gene for 26s rrna, partial sequence, strain: ifm 41873
+Hit:phialophora verrucosa gene for 26s rrna, partial sequence, strain: ifm 41710
+Hit:sequence 785 from patent wo0123604
+RPB1:1
+RPB2:1
+Remove:4
+18S_mt:1
+18S:8
+28S:13
+ITS:22
+
+==============================
+Count: 2	Taxa: Chaetothyriales sp. CR07/2-1
+['gi|157277471|gb|EU041876.1|']
+18S:1
+ITS:1
+
+==============================
+Count: 2	Taxa: Chaetothyriales sp. CR07/2-3
+['gi|157277471|gb|EU041876.1|']
+18S:1
+ITS:1
+
+==============================
+Count: 2	Taxa: Chaetothyriales sp. CR07/2-4
+['gi|157277471|gb|EU041876.1|']
+18S:1
+ITS:1
+
+==============================
+Count: 3	Taxa: Chaetothyriales sp. TRN506
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+28S:1
+RPB1:1
+
+==============================
+Count: 6	Taxa: Verrucaria elaeina
+['gi|157277471|gb|EU041876.1|']
+18S_mt:2
+28S:2
+ITS:2
+
+==============================
+Count: 7	Taxa: Phaeococcomyces catenatus
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:2
+RPB1:1
+ITS:3
+
+==============================
+Count: 4	Taxa: Vonarxia vagans
+['gi|157277471|gb|EU041876.1|']
+28S:2
+ITS:2
+
+==============================
+Count: 56	Taxa: Exophiala oligosperma
+['gi|157277471|gb|EU041876.1|']
+RPB1:5
+Remove:21
+18S_mt:1
+18S:2
+28S:1
+ITS:26
+
+==============================
+Count: 14	Taxa: Verrucaria subhydrela
+['gi|157277471|gb|EU041876.1|']
+ITS:14
+
+==============================
+Count: 6	Taxa: Rhinocladiella phaeophora
+['gi|157277471|gb|EU041876.1|']
+18S:2
+28S:1
+ITS:1
+Remove:2
+
+==============================
+Count: 4	Taxa: Chaetothyriales sp. TRN115
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:1
+RPB1:1
+
+==============================
+Count: 61	Taxa: Capronia semiimmersa
+['gi|157277471|gb|EU041876.1|']
+Hit:capronia semiimmersa gene for 26s rrna, partial sequence, strain: ifm 51361
+18S_mt:1
+RPB1:3
+RPB2:2
+Remove:13
+MCM7:1
+18S:16
+28S:3
+ITS:21
+
+==============================
+Count: 2	Taxa: Brycekendrickomyces acaciae
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:1
+
+==============================
+Count: 4	Taxa: Capronia sp. WUC 15.551
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:1
+RPB1:1
+
+==============================
+Count: 1598	Taxa: fungal endophyte
+['gi|157277471|gb|EU041876.1|']
+Hit:fungal endophyte isolate 8 16s ribosomal rna gene, partial sequence
+Hit:fungal endophyte isolate 6 16s ribosomal rna gene, partial sequence
+Hit:fungal endophyte isolate 4 16s ribosomal rna gene, partial sequence
+Hit:fungal endophyte isolate 2 16s ribosomal rna gene, partial sequence
+Hit:fungal endophyte isolate 7 16s ribosomal rna gene, partial sequence
+Hit:fungal endophyte isolate 5 16s ribosomal rna gene, partial sequence
+Hit:fungal endophyte isolate 3 16s ribosomal rna gene, partial sequence
+Hit:fungal endophyte isolate 1 16s ribosomal rna gene, partial sequence
+18S:46
+28S:139
+ITS:1405
+
+==============================
+Count: 80	Taxa: Exophiala xenobiotica
+['gi|157277471|gb|EU041876.1|']
+RPB1:3
+Remove:30
+18S_mt:1
+18S:1
+28S:6
+ITS:39
+
+==============================
+Count: 2	Taxa: Thysanorea papuana
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:1
+
+==============================
+Count: 4	Taxa: Knufia sp. CBS 268.34
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:1
+RPB1:1
+
+==============================
+Count: 4	Taxa: Acanthostigma perpusillum
+['gi|157277471|gb|EU041876.1|']
+18S:1
+28S:2
+ITS:1
+
+==============================
+Count: 3	Taxa: Chaetothyriales sp. H5
+['gi|157277471|gb|EU041876.1|']
+18S:1
+28S:1
+RPB1:1
+
+==============================
+Count: 4	Taxa: Capronia sp. WUC 26
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:1
+RPB1:1
+
+==============================
+Count: 22	Taxa: Capronia pilosella
+['gi|157277471|gb|EU041876.1|']
+Hit:capronia pilosella isolate aftol-id 350 12s ribosomal rna gene, partial sequence; mitochondrial
+18S_mt:1
+RPB1:3
+RPB2:3
+Remove:1
+MCM7:2
+18S:7
+28S:2
+ITS:3
+
+==============================
+Count: 16	Taxa: Ramichloridium anceps
+['gi|157277471|gb|EU041876.1|']
+RPB1:1
+RPB2:1
+Remove:2
+18S_mt:1
+18S:5
+28S:2
+ITS:4
+
+==============================
+Count: 5	Taxa: Capronia peltigerae
+['gi|157277471|gb|EU041876.1|']
+Hit:capronia peltigerae rna polymerase ii largest subunit gene, partial cds
+18S_mt:1
+18S:1
+28S:1
+ITS:1
+
+==============================
+Count: 17	Taxa: Fonsecaea compacta
+['gi|157277471|gb|EU041876.1|']
+Hit:fonsecaea compacta gene for 26s rrna, partial sequence, strain: ifm 41704
+Hit:fonsecaea compacta gene for 26s rrna, partial sequence, strain: ifm 41931
+Hit:fonsecaea compacta gene for 26s rrna, partial sequence, strain: ifm 4886
+18S:2
+28S:2
+ITS:8
+Remove:2
+
+==============================
+Count: 19	Taxa: Cladophialophora boppii
+['gi|157277471|gb|EU041876.1|']
+Hit:cladophialophora boppii gene for 26s rrna, partial sequence, strain: ifm 52024
+RPB1:1
+Remove:2
+18S_mt:1
+18S:2
+28S:2
+ITS:10
+
+==============================
+Count: 2	Taxa: Ceramothyrium podocarpi
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:1
+
+==============================
+Count: 13	Taxa: Cladophialophora minourae
+['gi|157277471|gb|EU041876.1|']
+Hit:cladophialophora minourae gene for 26s rrna, partial sequence, strain: ifm 4818
+RPB1:1
+Remove:2
+18S_mt:1
+18S:1
+28S:3
+ITS:4
+
+==============================
+Count: 92	Taxa: Exophiala jeanselmei
+['gi|157277471|gb|EU041876.1|']
+Hit:exophilia jeanselmei chitin synthase (ejchs3) gene, partial cds
+Hit:exophiala jeanselmei chitin synthase (ejchs1) gene, partial cds
+Hit:exophalia jeanselmei chitin synthase (ejchs2) gene, partial
+Hit:exophiala jeanselmei gene for 26s rrna, partial sequence, strain: ifm 4974
+Hit:exophiala jeanselmei gene for 26s rrna, partial sequence, strain: ifm 4852
+Hit:exophiala jeanselmei gene for 26s rrna, partial sequence, strain: ifm 45989
+Hit:exophiala jeanselmei gene for 26s rrna, partial sequence, strain: ifm 41691
+Hit:novel hydrolase
+Hit:sequence 435 from patent wo0123604
+RPB1:5
+RPB2:1
+Remove:48
+18S:5
+28S:4
+ITS:21
+
+==============================
+Count: 47	Taxa: Exophiala mesophila
+['gi|380350107|emb|HE605217.1|']
+18S:1
+ITS:24
+Remove:22
+
+==============================
+Count: 2	Taxa: Veronaea compacta
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:1
+
+==============================
+Count: 10	Taxa: Cladophialophora chaetospira
+['gi|157277471|gb|EU041876.1|']
+18S:2
+ITS:8
+
+==============================
+Count: 13	Taxa: Capronia epimyces
+['gi|157277471|gb|EU041876.1|']
+MCM7:2
+18S:4
+RPB1:2
+RPB2:2
+ITS:3
+
+==============================
+Count: 2	Taxa: Chaetothyriales sp. CR07/2-2
+['gi|157277471|gb|EU041876.1|']
+18S:1
+ITS:1
+
+==============================
+Count: 2	Taxa: Dactylaria aquatica
+['gi|157277471|gb|EU041876.1|']
+18S:1
+28S:1
+
+==============================
+Count: 57	Taxa: Exophiala pisciphila
+['gi|157277471|gb|EU041876.1|']
+Hit:exophiala pisciphila natural resistance-associated macrophage protein mrna, complete cds
+RPB1:1
+RPB2:1
+Remove:16
+18S_mt:1
+18S:4
+28S:3
+ITS:30
+
+==============================
+Count: 218	Taxa: Fonsecaea pedrosoi
+['gi|157277471|gb|EU041876.1|']
+Hit:fonsecaea pedrosoi abc transporter mrna, partial cds
+Hit:fonsecaea pedrosoi chitin synthase (fpchs1) gene, partial cds
+Hit:fonsecaea pedrosoi chitin synthase (fpchs2) gene, partial cds
+Hit:fonsecaea pedrosoi chitin synthase (fpchs3) gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:285.47 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:117910 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:122741 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:274.66 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:671.66 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:670.66 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:102247 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:201.31 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:122345 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:122736 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:342.34 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:122740 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:273.66 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:253.49 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:212.77 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi strain dh 20500 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:271.37 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:272.37 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi strain dh 20488 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi culture-collection cbs:122849 cdc42p gene, partial cds
+Hit:fonsecaea pedrosoi gene for 26s rrna, partial sequence, strain: ifm 46410
+Hit:fonsecaea pedrosoi gene for 26s rrna, partial sequence, strain: ifm 4914
+Hit:fonsecaea pedrosoi gene for 26s rrna, partial sequence, strain: ifm 4887
+Hit:fonsecaea pedrosoi gene for 26s rrna, partial sequence, strain: ifm 41705
+Hit:fonsecaea pedrosoi gene for 26s rrna, partial sequence, strain: ifm 4889
+Hit:fonsecaea pedrosoi gene for 26s rrna, partial sequence, strain: ifm 4856
+Hit:sequence 1653 from patent wo0123604
+Hit:sequence 1664 from patent wo0123604
+Hit:sequence 782 from patent wo0123604
+18S:5
+28S:6
+ITS:115
+Remove:59
+
+==============================
+Count: 5	Taxa: Cladophialophora parmeliae
+['gi|157277471|gb|EU041876.1|']
+18S_mt:2
+28S:2
+ITS:1
+
+==============================
+Count: 9	Taxa: Exophiala nigra
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:5
+28S:1
+RPB1:1
+ITS:1
+
+==============================
+Count: 4	Taxa: Cladophialophora proteae
+['gi|157277471|gb|EU041876.1|']
+28S:1
+ITS:3
+
+==============================
+Count: 4	Taxa: Chaetothyriales sp. TRN247
+['gi|157277471|gb|EU041876.1|']
+18S_mt:1
+18S:1
+28S:1
+RPB1:1
+
+==============================
+
+==end==

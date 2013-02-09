@@ -19,9 +19,9 @@ class RunComponent(object):
         pass
 #        self.all_exts=[]
 
-    def parameter_check(self, pdir, wdir, infile, outfile, check_exist, outfile_tag):
+    def parameter_check(self, pdir, wdir, file_name, outfile, check_exist, outfile_tag):
         self.check_dirs(pdir, wdir, check_exist)
-        self.check_filenames(infile, outfile, outfile_tag)
+        self.check_filenames(file_name, outfile, outfile_tag)
         self.check_file_exist(self.infile, check_exist)
 
 
@@ -65,9 +65,9 @@ class RunComponent(object):
 #                raise(ValueError("ValueError: %s%s " % (e, s)))
         return v
 
-    def check_filenames(self, infile, outfile, outfile_tag):
+    def check_filenames(self, file_name, outfile, outfile_tag):
         """
-        infile name
+        file_name name
             check if it exist
             overwrite or not
         if os.path.exists(  self.cwd+self.name_only  ):
@@ -75,14 +75,14 @@ class RunComponent(object):
         """
 
 
-#        if infile.find(self.wdir) > -1:
-#            self.infile = infile
+#        if file_name.find(self.wdir) > -1:
+#            self.file_name = file_name
 #        else:
-#            self.infile = self.wdir + infile
+#            self.file_name = self.wdir + file_name
 
 
         if outfile is None:
-            prefix = path_utils.remove_ext(infile)
+            prefix = path_utils.remove_ext(file_name)
             if outfile_tag is not None:
                 outfile = prefix + outfile_tag
 #            print "mm", self.filename
@@ -93,7 +93,7 @@ class RunComponent(object):
 #        else:
 #            self.filename = self.wdir + filename
 
-        self.infile = path_utils.check_wdir_prefix(self.wdir, infile)
+        self.infile = path_utils.check_wdir_prefix(self.wdir, file_name)
         self.outfile = path_utils.check_wdir_prefix(self.wdir, outfile)
 
 
